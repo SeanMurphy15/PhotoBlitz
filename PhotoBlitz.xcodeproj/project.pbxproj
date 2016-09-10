@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16F7BFCD80DFECDA0A192158 /* libPods-PhotoBlitz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D73016B91815541D89F811 /* libPods-PhotoBlitz.a */; };
 		FFED90B51D84AFBC00B80B45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFED90B41D84AFBC00B80B45 /* AppDelegate.swift */; };
 		FFED90B71D84AFBC00B80B45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFED90B61D84AFBC00B80B45 /* ViewController.swift */; };
 		FFED90BA1D84AFBC00B80B45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFED90B81D84AFBC00B80B45 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		FFED90BF1D84AFBC00B80B45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFED90BD1D84AFBC00B80B45 /* LaunchScreen.storyboard */; };
 		FFED90CA1D84AFBC00B80B45 /* PhotoBlitzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFED90C91D84AFBC00B80B45 /* PhotoBlitzTests.swift */; };
 		FFED90D51D84AFBC00B80B45 /* PhotoBlitzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFED90D41D84AFBC00B80B45 /* PhotoBlitzUITests.swift */; };
+		FFED90E31D84B05200B80B45 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFED90E21D84B05200B80B45 /* GoogleService-Info.plist */; };
+		FFED90E51D84C70900B80B45 /* PhotoAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFED90E41D84C70900B80B45 /* PhotoAlbum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		401267FB0143AB571F1DEDC0 /* Pods-PhotoBlitz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoBlitz.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoBlitz/Pods-PhotoBlitz.release.xcconfig"; sourceTree = "<group>"; };
+		4221E237751E8E513066D1D9 /* Pods-PhotoBlitz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoBlitz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoBlitz/Pods-PhotoBlitz.debug.xcconfig"; sourceTree = "<group>"; };
+		90D73016B91815541D89F811 /* libPods-PhotoBlitz.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhotoBlitz.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFED90B11D84AFBC00B80B45 /* PhotoBlitz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoBlitz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFED90B41D84AFBC00B80B45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFED90B61D84AFBC00B80B45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,8 @@
 		FFED90D01D84AFBC00B80B45 /* PhotoBlitzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoBlitzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFED90D41D84AFBC00B80B45 /* PhotoBlitzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoBlitzUITests.swift; sourceTree = "<group>"; };
 		FFED90D61D84AFBC00B80B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFED90E21D84B05200B80B45 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FFED90E41D84C70900B80B45 /* PhotoAlbum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoAlbum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16F7BFCD80DFECDA0A192158 /* libPods-PhotoBlitz.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E233F4EFFCF69F4BD47F5D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4221E237751E8E513066D1D9 /* Pods-PhotoBlitz.debug.xcconfig */,
+				401267FB0143AB571F1DEDC0 /* Pods-PhotoBlitz.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DAD84956FF5C5E84254C42B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90D73016B91815541D89F811 /* libPods-PhotoBlitz.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FFED90A81D84AFBC00B80B45 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +107,8 @@
 				FFED90C81D84AFBC00B80B45 /* PhotoBlitzTests */,
 				FFED90D31D84AFBC00B80B45 /* PhotoBlitzUITests */,
 				FFED90B21D84AFBC00B80B45 /* Products */,
+				3E233F4EFFCF69F4BD47F5D6 /* Pods */,
+				DAD84956FF5C5E84254C42B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +125,10 @@
 		FFED90B31D84AFBC00B80B45 /* PhotoBlitz */ = {
 			isa = PBXGroup;
 			children = (
+				FFED90E21D84B05200B80B45 /* GoogleService-Info.plist */,
 				FFED90B41D84AFBC00B80B45 /* AppDelegate.swift */,
 				FFED90B61D84AFBC00B80B45 /* ViewController.swift */,
+				FFED90E41D84C70900B80B45 /* PhotoAlbum.swift */,
 				FFED90B81D84AFBC00B80B45 /* Main.storyboard */,
 				FFED90BB1D84AFBC00B80B45 /* Assets.xcassets */,
 				FFED90BD1D84AFBC00B80B45 /* LaunchScreen.storyboard */,
@@ -132,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFED90D91D84AFBC00B80B45 /* Build configuration list for PBXNativeTarget "PhotoBlitz" */;
 			buildPhases = (
+				A89790A56EA2112E5BF1696D /* Check Pods Manifest.lock */,
 				FFED90AD1D84AFBC00B80B45 /* Sources */,
 				FFED90AE1D84AFBC00B80B45 /* Frameworks */,
 				FFED90AF1D84AFBC00B80B45 /* Resources */,
+				8DD6BC7DCA4C410943006FBC /* Embed Pods Frameworks */,
+				2AF848121C5A7AB8C2BF23C1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +265,7 @@
 				FFED90BF1D84AFBC00B80B45 /* LaunchScreen.storyboard in Resources */,
 				FFED90BC1D84AFBC00B80B45 /* Assets.xcassets in Resources */,
 				FFED90BA1D84AFBC00B80B45 /* Main.storyboard in Resources */,
+				FFED90E31D84B05200B80B45 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +285,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2AF848121C5A7AB8C2BF23C1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoBlitz/Pods-PhotoBlitz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DD6BC7DCA4C410943006FBC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoBlitz/Pods-PhotoBlitz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A89790A56EA2112E5BF1696D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FFED90AD1D84AFBC00B80B45 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +340,7 @@
 			files = (
 				FFED90B71D84AFBC00B80B45 /* ViewController.swift in Sources */,
 				FFED90B51D84AFBC00B80B45 /* AppDelegate.swift in Sources */,
+				FFED90E51D84C70900B80B45 /* PhotoAlbum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +480,7 @@
 		};
 		FFED90DA1D84AFBC00B80B45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4221E237751E8E513066D1D9 /* Pods-PhotoBlitz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhotoBlitz/Info.plist;
@@ -408,6 +492,7 @@
 		};
 		FFED90DB1D84AFBC00B80B45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 401267FB0143AB571F1DEDC0 /* Pods-PhotoBlitz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhotoBlitz/Info.plist;
@@ -482,6 +567,7 @@
 				FFED90DB1D84AFBC00B80B45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFED90DC1D84AFBC00B80B45 /* Build configuration list for PBXNativeTarget "PhotoBlitzTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +576,7 @@
 				FFED90DE1D84AFBC00B80B45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFED90DF1D84AFBC00B80B45 /* Build configuration list for PBXNativeTarget "PhotoBlitzUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +585,7 @@
 				FFED90E11D84AFBC00B80B45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
