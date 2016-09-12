@@ -19,6 +19,7 @@
 		FFED90E51D84C70900B80B45 /* PhotoAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFED90E41D84C70900B80B45 /* PhotoAlbum.swift */; };
 		FFED90E71D84D83000B80B45 /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFED90E61D84D83000B80B45 /* PhotoCollectionViewController.swift */; };
 		FFED90E91D84DC1800B80B45 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFED90E81D84DC1800B80B45 /* PhotoCell.swift */; };
+		FFED90EB1D873B2D00B80B45 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFED90EA1D873B2D00B80B45 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		FFED90E41D84C70900B80B45 /* PhotoAlbum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoAlbum.swift; sourceTree = "<group>"; };
 		FFED90E61D84D83000B80B45 /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewController.swift; sourceTree = "<group>"; };
 		FFED90E81D84DC1800B80B45 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		FFED90EA1D873B2D00B80B45 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				FFED90E21D84B05200B80B45 /* GoogleService-Info.plist */,
 				FFED90B41D84AFBC00B80B45 /* AppDelegate.swift */,
 				FFED90B61D84AFBC00B80B45 /* ViewController.swift */,
+				FFED90EA1D873B2D00B80B45 /* LoginViewController.swift */,
 				FFED90E61D84D83000B80B45 /* PhotoCollectionViewController.swift */,
 				FFED90E41D84C70900B80B45 /* PhotoAlbum.swift */,
 				FFED90B81D84AFBC00B80B45 /* Main.storyboard */,
@@ -344,6 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFED90EB1D873B2D00B80B45 /* LoginViewController.swift in Sources */,
 				FFED90B71D84AFBC00B80B45 /* ViewController.swift in Sources */,
 				FFED90E91D84DC1800B80B45 /* PhotoCell.swift in Sources */,
 				FFED90B51D84AFBC00B80B45 /* AppDelegate.swift in Sources */,

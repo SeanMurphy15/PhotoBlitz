@@ -6,7 +6,8 @@
 target 'PhotoBlitz' do
 pod 'Firebase'
 pod 'Firebase/Storage'
-
+pod 'Firebase/Auth'
+pod 'Firebase/Database'		
 end
 
 target 'PhotoBlitzTests' do

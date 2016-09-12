@@ -14,15 +14,14 @@ private let reuseIdentifier = "photoCell"
 
 class PhotoCollectionViewController: UICollectionViewController {
 
-	let storageRef = FIRStorage.storage().referenceForURL("gs://photoblitz-c9f3d.appspot.com")
+	let storageRef = FIRStorage.storage().reference()
 	var imageArray: [UIImage] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-			let images = storageRef.child("images/image")
-			// Download in memory with a maximum allowed size of 1MB (1 * 1024 * 1024 bytes)
-			images.dataWithMaxSize(4 * 1024 * 1024) { (data, error) -> Void in
+			let images = storageRef.child("images/13653282_10210220189004454_5033365853263720335_o.jpg")
+			images.dataWithMaxSize(100 * 1024 * 1024) { (data, error) -> Void in
 				if (error != nil) {
 					print(error)
 				} else {

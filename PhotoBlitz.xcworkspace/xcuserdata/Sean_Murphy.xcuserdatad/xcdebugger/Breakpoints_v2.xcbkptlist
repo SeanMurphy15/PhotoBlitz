@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PhotoBlitz/ViewController.swift"
-            timestampString = "495241751.964145"
+            timestampString = "495407454.345821"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
             landmarkName = "saveToFirebase(_:)"
             landmarkType = "5">
          </BreakpointContent>
